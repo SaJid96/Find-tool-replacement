@@ -1,27 +1,82 @@
-# AngularTest
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.1.
+# Find and Replace Tool
 
-## Development server
+## **Description**
+The Find and Replace Tool is a simple Angular web application that allows users to perform find-and-replace operations on a given block of text. The tool includes functionality to preview changes before applying them and supports case-sensitive find-and-replace operations. It is styled using Bootstrap.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+### **Features**
+- Input a block of text for find-and-replace operations.
+- Specify the text to find and the replacement text.
+- Preview changes live before applying them.
+- Enable or disable case-sensitive matching using a toggle switch.
+- Tooltips on form labels and options for enhanced user guidance.
+- Reset functionality to clear all inputs and outputs.
 
-## Code scaffolding
+---
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## **How to Run the Project**
 
-## Build
+### **Prerequisites**
+1. [Node.js](https://nodejs.org/) installed (v14 or later recommended).
+2. [Angular CLI](https://angular.io/cli) installed globally.
+3. Basic knowledge of Angular and npm commands.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+---
 
-## Running unit tests
+### **Steps to Run**
+1. Clone the repository:
+   ```bash
+   git clone <repository-url>
+   ```
+2. Navigate to the project directory:
+   ```bash
+   cd find-replace-tool
+   ```
+3. Install dependencies:
+   ```bash
+   npm install
+   ```
+4. Start the development server:
+   ```bash
+   ng serve
+   ```
+5. Open your browser and navigate to:
+   ```
+   http://localhost:4200
+   ```
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+---
 
-## Running end-to-end tests
+## **How to Use the Application**
+1. **Input Text Area:**
+   - Paste or type the text in the provided text area where you want to perform find-and-replace operations.
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+2. **Find and Replace:**
+   - Enter the word or phrase you want to find.
+   - Enter the word or phrase to replace it with.
 
-## Further help
+3. **Case Sensitivity:**
+   - Use the toggle switch to enable or disable case-sensitive find-and-replace.
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+4. **Preview Changes:**
+   - Live preview shows the updated text with replacements highlighted.
+
+5. **Replace All:**
+   - Click the **"Replace All"** button to apply the changes to the input text.
+
+6. **Reset:**
+   - Use the **"Reset"** button to clear all inputs and outputs.
+
+
+
+---
+
+## **Built With**
+- **Angular** - Framework for building the application.
+- **Bootstrap** - Styling and responsive layout.
+
+
+---
+
+## **Author**
+Developed by Mohd Sajid Hussain. 
